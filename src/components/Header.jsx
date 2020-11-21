@@ -6,7 +6,7 @@ function Header(props) {
 
   const theme= useTheme();
   return (
-    <header style={theme}>
+    <header style={{backgroundColor:theme.headerBG, color: theme.color}}>
       <h1>
         Big-Heading
       </h1>
